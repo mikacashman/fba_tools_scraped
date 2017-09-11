@@ -1,0 +1,141 @@
+Could not find parameter: gene list
+Could not find parameter: gene list
+Could not find parameter: gene list
+Could not find parameter: gene list
+Could not find parameter: omega
+Could not find parameter: alpha
+Could not find parameter: scale penalty by flux
+Could not find parameter: prom constraints
+Could not find parameter: transcriptome analysis
+Could not find parameter: phenotype analysis
+Could not find parameter: quantitative optimization
+Could not find parameter: perform interval KO experiments
+Could not find parameter: perform interval strain experiments
+Could not find parameter: perform gene strain experiments
+Could not find parameter: add abundance constraint
+Could not find parameter: Simultaneous gapfill
+Could not find parameter: Gapfilling target reactions
+Could not find parameter: deletion experiments
+Could not open /kb/module/work/tmp/fbajobs//BTtqzgFKmJ/ProblemReport.txt
+Could not find parameter: Biomass modification hypothesis
+Could not find compound named: cpd00244_e0
+Could not find compound named: cpd10515_e0
+Could not find compound named: cpd11574_e0
+Could not find compound named: cpd00971_e0
+Could not find parameter: Mass balance atoms
+Unrecognized MFA variable type: DELTAGG_ERROR
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible
+Model is infeasible

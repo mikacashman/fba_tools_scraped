@@ -1,0 +1,6 @@
+Name	ID attribute	Type	Path	Filename	Delimiter	Item delimiter	Indexed columns
+compound	id	SINGLEFILE		/kb/module/work/tmp/fbajobs/BTtqzgFKmJ/Compounds.tbl	TAB	SC	id
+reaction	id	SINGLEFILE	/kb/module/work/tmp/fbajobs/BTtqzgFKmJ/reaction/	/kb/module/work/tmp/fbajobs/BTtqzgFKmJ/Reactions.tbl	TAB	|	id
+cue	NAME	SINGLEFILE		/kb/deployment/bin/../etc/MFAToolkit/cueTable.txt	TAB	|	NAME
+media	ID	SINGLEFILE	/kb/module/work/tmp/fbajobs/BTtqzgFKmJ/media/	/kb/module/work/tmp/fbajobs/BTtqzgFKmJ/media.tbl	TAB	|	ID;NAMES
+gene	ID	SINGLEFILE	/kb/module/work/tmp/fbajobs/BTtqzgFKmJ/gene/	/kb/module/work/tmp/fbajobs/BTtqzgFKmJ/genes.tbl	TAB	|	ID;NAMES

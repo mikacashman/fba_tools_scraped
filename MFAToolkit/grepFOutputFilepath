@@ -1,0 +1,77 @@
+.//include/GlobalFunctions.h:string FOutputFilepath();
+.//src/CPLEXapi.cpp:	Status = CPXsetstrparam(CPLEXenv, CPX_PARAM_WORKDIR, FOutputFilepath().data());
+.//src/CPLEXapi.cpp:	string Filename = CheckFilename(FOutputFilepath()+GetParameter("LP filename")+itoa(lpcount));
+.//src/Data.cpp:		string outputFilename = FOutputFilepath()+"GeneList.txt";
+.//src/Data.cpp:	vector< vector<string> >* rows = LoadMultipleColumnFile(FOutputFilepath()+Filename,"\t");
+.//src/Data.cpp:		string PathwayPath(FOutputFilepath());
+.//src/Data.cpp:	//MakeDirectory((FOutputFilepath()+"MFAOutput/").data());
+.//src/Data.cpp:	string Filename = FOutputFilepath();
+.//src/Data.cpp:	string Filename(FOutputFilepath());
+.//src/Data.cpp:	Filename.assign(FOutputFilepath());
+.//src/Data.cpp:	Filename.assign(FOutputFilepath());
+.//src/Data.cpp:	Filename.assign(FOutputFilepath());
+.//src/Data.cpp:	string Filename(FOutputFilepath());
+.//src/Data.cpp:	string Filename(FOutputFilepath());
+.//src/Data.cpp:	string Filename(FOutputFilepath());
+.//src/Data.cpp:		string NewPath(FOutputFilepath());
+.//src/Data.cpp:	string Filename(FOutputFilepath());
+.//src/Data.cpp:	string Path = FOutputFilepath();
+.//src/driver.cpp:	string OutputPath = FOutputFilepath();
+.//src/GlobalFunctions.cpp:	string Filename(FOutputFilepath());
+.//src/GlobalFunctions.cpp:	Filename.assign(FOutputFilepath());
+.//src/GlobalFunctions.cpp:string FOutputFilepath() {
+.//src/GlobalFunctions.cpp:	string PathwayPath(FOutputFilepath());
+.//src/GlobalFunctions.cpp:	if (!OpenInput(Input,(FOutputFilepath()+Filename).data())) {
+.//src/GlobalFunctions.cpp:					if (OpenOutput(suboptOut,(FOutputFilepath()+"suboptimalSolutions.txt").data())) {
+.//src/GLPKapi.cpp:	string Filename = CheckFilename(FOutputFilepath()+GetParameter("LP filename"));
+.//src/GLPKapi.cpp:	Filename = CheckFilename(FOutputFilepath()+GetParameter("LP filename")+itoa(lpcount));
+.//src/InterfaceFunctions.cpp:	string fullfile = FOutputFilepath()+"MolfileInput.txt";
+.//src/InterfaceFunctions.cpp:	string outfile = FOutputFilepath()+"MolfileOutput.txt";
+.//src/MFAProblem.cpp:	SetParameter("MFA output path",(FOutputFilepath()+GetParameter("MFA output")).data());
+.//src/MFAProblem.cpp:	string Filename(FOutputFilepath());
+.//src/MFAProblem.cpp:	string outputFilename = FOutputFilepath()+"MFAOutput/CombinationKO.txt";
+.//src/MFAProblem.cpp:		outputFilename = FOutputFilepath()+"MFAOutput/ReactionCombinationKO.txt";
+.//src/MFAProblem.cpp:	Filename = FOutputFilepath()+Filename;
+.//src/MFAProblem.cpp:	OpenOutput(Output,FOutputFilepath()+"MFAOutput/MetaboliteProduction.txt");
+.//src/MFAProblem.cpp:	string outFile = FOutputFilepath()+"FBAExperimentOutput.txt";
+.//src/MFAProblem.cpp:	OpenOutput(MediaStudyOutput,FOutputFilepath()+"MediaStudyResults.txt");
+.//src/MFAProblem.cpp:		vector< vector<string> >* rows = LoadMultipleColumnFile(FOutputFilepath()+"AdditionalReactions.txt","\t");
+.//src/MFAProblem.cpp:	if (OpenOutput(output,(FOutputFilepath()+"MinimalMediaOutput.txt").data())) {
+.//src/MFAProblem.cpp:		if(OpenOutput(output,(FOutputFilepath()+"BiomassRemovals.txt").data(),false)) {
+.//src/MFAProblem.cpp:		if (OpenOutput(output,FOutputFilepath()+"GeneClasses.txt")) {
+.//src/MFAProblem.cpp:	Filename = FOutputFilepath();
+.//src/MFAProblem.cpp:	string Filename = FOutputFilepath();
+.//src/MFAProblem.cpp:		GetStringDB()->loadDatabaseTable("biomassComponentRxn","SINGLEFILE","id",FOutputFilepath()+"BiomassHypothesisEquations.txt","","\t","|",StringToStrings("id","|",false),true);
+.//src/MFAProblem.cpp:	vector<string> InitialInactiveReactions = ReadStringsFromFile(FOutputFilepath()+"InactiveModelReactions.txt",false);
+.//src/MFAProblem.cpp:	if (OpenOutput(output,(FOutputFilepath()+"CompleteGapfillingOutput.txt").data())) {
+.//src/MFAProblem.cpp:				if (OpenOutput(output,(FOutputFilepath()+"CompleteGapfillingOutput.txt").data(),true)) {
+.//src/MFAProblem.cpp:				if (OpenOutput(output,(FOutputFilepath()+"CompleteGapfillingOutput.txt").data(),true)) {
+.//src/MFAProblem.cpp:			if (OpenOutput(output,(FOutputFilepath()+"CompleteGapfillingOutput.txt").data(),true)) {
+.//src/MFAProblem.cpp:	if (OpenOutput(outputTwo,(FOutputFilepath()+"GapfillingComplete.txt").data())) {
+.//src/MFAProblem.cpp:		vector<string> CoefficientList = ReadStringsFromFile(FOutputFilepath()+GetParameter("Objective coefficient file"),false);
+.//src/MFAProblem.cpp:		vector< vector<string> >* rows = LoadMultipleColumnFile(FOutputFilepath()+"ActivationCoefficients.txt","\t");
+.//src/MFAProblem.cpp:		vector< vector<string> >* rows = LoadMultipleColumnFile(FOutputFilepath()+"GapfillingCoefficients.txt","\t");
+.//src/MFAProblem.cpp:		if (OpenOutput(output,(FOutputFilepath()+"GapfillingOutput.txt").data())) {
+.//src/MFAProblem.cpp:	bool fileopen = OpenOutput(output,(FOutputFilepath()+OutputFilename).data(),true);
+.//src/MFAProblem.cpp:	if(!OpenOutput(output,(FOutputFilepath()+"ReactionSensitivity.txt").data(),false)) {
+.//src/MFAProblem.cpp:		OpenOutput(Output,FOutputFilepath()+"GapGenerationReport.txt",true);
+.//src/MFAProblem.cpp:	if (OpenOutput(Output,FOutputFilepath()+"PROMResult.txt")) {
+.//src/MFAProblem.cpp:	if (OpenOutput(Output,FOutputFilepath()+"GeneActivityStateFBAResult.txt")) {
+.//src/MFAProblem.cpp:	string Filename(FOutputFilepath());
+.//src/MFAProblem.cpp:	string Filename(FOutputFilepath());
+.//src/MFAProblem.cpp:	Filename.assign(FOutputFilepath());
+.//src/MFAProblem.cpp:	Filename.assign(FOutputFilepath());
+.//src/MFAProblem.cpp:	string Filename(FOutputFilepath());
+.//src/MFAProblem.cpp:	Filename.assign(FOutputFilepath());
+.//src/MFAProblem.cpp:	Filename.assign(FOutputFilepath());
+.//src/MFAProblem.cpp:		if (!OpenOutput(Output,FOutputFilepath()+GetParameter("MFA variable key filename"))) {
+.//src/MFAProblem.cpp:  if (OpenOutput(log_output,FOutputFilepath()+"MFALog.txt")) {
+.//src/Reaction.cpp:		InFilename = FOutputFilepath()+"reactions/"+InFilename;
+.//src/SCIPapi.cpp:	if (!OpenOutput(Output,FOutputFilepath()+"ScipSettings.txt")) {
+.//src/SCIPapi.cpp:	system((scip+" -s "+FOutputFilepath()+"ScipSettings.txt -f "+FOutputFilepath()+GetParameter("LP filename")+" > "+FOutputFilepath()+"ScipOutput.out").data());
+.//src/UtilityFunctions.cpp:		strout << "ls " << Directory << " > " << FOutputFilepath() << "DirectoryFileList.txt";
+.//src/UtilityFunctions.cpp:		strout << "dir " << Directory << " /A:-D /B > " << FOutputFilepath() << "DirectoryFileList.txt";
+.//src/UtilityFunctions.cpp:	vector<string> Files = ReadStringsFromFile(FOutputFilepath()+"DirectoryFileList.txt", false);
+.//src/UtilityFunctions.cpp:		strout << "rm " << FOutputFilepath()+"DirectoryFileList.txt";
+.//src/UtilityFunctions.cpp:		strout << "del " << FOutputFilepath()+"DirectoryFileList.txt";
+.//src/UtilityFunctions.cpp:		string FullFilename(FOutputFilepath());
